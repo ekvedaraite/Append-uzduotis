@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdana;
+    padding: 20px;
+    max-width: 600px;
+}
+
+div.inputs, div.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, button {
+    width: calc(33.33% - 2px);
+}
+
+input {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ffc108;
+    padding: 15px;
+}
+
+#secondTh {
+    background: #d4a130;
+}
+
+th {
+    background: #ffc108;
+    text-transform: uppercase;
+}
+
+td {
+    background: #362b67;
+}
